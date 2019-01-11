@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".fragment.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:id="@+id/aTextview1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:tooltipText="Test"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textAllCaps="true"
+            android:textAlignment="inherit"
+            android:shadowRadius="1"
+            android:shadowColor="@android:color/darker_gray"
+            android:shadowDx="-5"
+            android:shadowDy="10"
+            android:text="@string/first_fragment"/>
+
+
+    <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textAllCaps="true"
+            android:textAlignment="gravity"
+            android:lineSpacingExtra="2dp"
+            android:letterSpacing="0.5"
+            android:autoSizeTextType="uniform"
+            android:autoSizeStepGranularity="2dp"
+            android:breakStrategy="balanced"
+            android:requiresFadingEdge="horizontal"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            android:text="@string/first_fragment"/>
+
+
+    <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:tooltipText="Test"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textAllCaps="true"
+            android:textAlignment="gravity"
+            android:lineSpacingExtra="5sp"
+            android:letterSpacing="0.5"
+            android:hyphenationFrequency="none"
+            android:autoSizeTextType="uniform"
+            android:autoSizeStepGranularity="2dp"
+            android:breakStrategy="high_quality"
+            android:text="First fragment simple sample android"/>
+
+</LinearLayout>
